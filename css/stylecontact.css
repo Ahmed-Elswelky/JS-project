@@ -1,0 +1,35 @@
+
+  .form {
+    color: white;
+    align-items: center;
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 600px;
+    padding: 20px;
+    width: 350px;
+    margin: auto;
+  }
+  
+
+input[type=text],input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  #p1,#p2,#p3 {
+    display: none;
+  }
+  .form p{
+    color: red;
+  }
+
